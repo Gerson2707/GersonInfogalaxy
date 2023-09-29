@@ -4,7 +4,7 @@ import quotes from "./db/quotes.json";
 import { getRandomElement } from "./utils/random";
 import QuoteCard from "./components/QuoteCard";
 
-const backgrounds = ["bg1", "bg2", "bg3, bg4"];
+const backgrounds = ["bg1", "bg2", "bg3", "bg4"];
 
 function App() {
   const [quote, setQuote] = useState(getRandomElement(quotes));
