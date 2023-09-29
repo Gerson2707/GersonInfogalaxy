@@ -12,7 +12,7 @@ function App() {
 
   const handleChangeQuote = () => {
     setQuote(getRandomElement(quotes));
-    setCurrentBg(backgrounds);
+    setCurrentBg(getRandomElement(currentBg));
   };
 
   return (
@@ -20,7 +20,6 @@ function App() {
       <QuoteCard
         quote={quote}
         handleChangeQuote={handleChangeQuote} 
-        // hora 2:19
       />
     </main>
   );
