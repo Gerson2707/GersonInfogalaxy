@@ -1,6 +1,6 @@
 import "./QuoteCard.css"
 
-const QuoteCard = ({ quote,handleChangeQuote }) => {
+const QuoteCard = ({ quote, handleChangeQuote }) => {
 
 
   return (
