@@ -12,14 +12,14 @@ function App() {
 
   const handleChangeQuote = () => {
     setQuote(getRandomElement(quotes));
-    setCurrentBg(getRandomElement(currentBg));
+    setCurrentBg(getRandomElement(backgrounds));
   };
 
   return (
     <main className={`app ${currentBg} `}>
       <QuoteCard
         quote={quote}
-        handleChangeQuote={handleChangeQuote} 
+        handleChangeQuote={ handleChangeQuote } 
       />
     </main>
   );
